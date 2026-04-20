@@ -28,7 +28,7 @@
  ************************************************************************/
 
 require_once('../../../bootstrap.php');
-require __DIR__ . "/../public/index.php";
+require __DIR__ . "index.php";
 
 use Espo\Core\Application;
 use Espo\Core\ApplicationRunners\Api;
