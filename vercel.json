@@ -7,8 +7,12 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "public/api/index.php"
+            "dest": "public/api/index.php",
+            "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+            "headers": {
+            "Access-Control-Allow-Origin": "*"
         }
+    }
     ],
     "rewrites": [
         { 
